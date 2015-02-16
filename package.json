@@ -1,0 +1,42 @@
+{
+  "name": "generator-wp-starter",
+  "version": "0.0.1",
+  "description": "Yeoman generator to start a WP theme",
+  "keywords": [
+    "yeoman-generator",
+    "wordpress",
+    "theme"
+  ],
+  "homepage": "https://github.com/kdo/generator-wp-starter",
+  "bugs": "https://github.com/kdo/generator-wp-starter/issues",
+  "author": {
+    "name": "Karine"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kdo/generator-wp-starter.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.5.1"
+  },
+  "devDependencies": {
+    "mocha": "~2.1.0"
+  },
+  "peerDependencies": {
+    "yo": "~1.4.5"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.1.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}

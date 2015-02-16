@@ -1,0 +1,15 @@
+/*
+ * <%= themename %>
+ * <%= themeuri %>
+ *
+ * Write your theme styles here
+ */
+
+@import "utils/variables";
+@import "utils/mixins";
+@import "utils/placeholders";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "shame";
